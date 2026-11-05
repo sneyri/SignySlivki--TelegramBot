@@ -1,7 +1,7 @@
 from itdpy import ITDClient
 from itdpy.exceptions import NotFoundError
 
-client = ITDClient(refresh_token="2e66650e89499f086e423330638d3a31124c68d62b828f361575d266aad164f0")
+client = ITDClient(refresh_token="token")
 
 users = client.users
 posts = client.posts
